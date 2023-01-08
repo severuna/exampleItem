@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styles.css">
+    <title>Item List</title>
+</head>
+<body>
+    <h1 class="title border">User List</h1>
+    <form name="userAppend" class="form border">
+        <div class="form-field border">
+            <label for="name">Name: </label>
+            <input type="text" id="name">
+        </div>
+        <div class="form-field border">
+            <label for="age">Age: </label>
+            <input type="number" id="age" step="1">
+        </div>
+        <button type="submit" class="form-btn border">Submit</button>
+    </form>
+    <div class="list border" id="list">
+        <p class="list-empty">The list is empty.</p>
+    </div>
+
+    <script src="./script/index.js"></script>
+</body>
+</html>
